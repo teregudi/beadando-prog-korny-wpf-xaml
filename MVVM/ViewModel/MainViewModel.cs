@@ -11,7 +11,15 @@ namespace WPF_App.MVVM.ViewModel {
       public ObservableCollection<MessageModel> Messages { get; set; }
       public ObservableCollection<ContactModel> Contacts { get; set; }
 
-      public ContactModel SelectedContact { get; set; }
+      private ContactModel selectedContact;
+
+      public ContactModel SelectedContact {
+         get { return selectedContact; }
+         set { selectedContact = value;
+            OnPropertyChanged();
+         }
+      }
+
       private string _message
          ;
 
@@ -22,10 +30,20 @@ namespace WPF_App.MVVM.ViewModel {
          }
       }
 
+      public RelayCommand SendCommand { get; set; }
+
 
       public MainViewModel() {
          Messages = new ObservableCollection<MessageModel>();
          Contacts = new ObservableCollection<ContactModel>();
+
+         SendCommand = new RelayCommand(o => {
+            Messages.Add(new MessageModel {
+               Message = Message,
+               FirstMessage = false
+            });
+            Message = "";
+         });
 
          Messages.Add(new MessageModel {
             Username = "Ezerszatyrú Piri",
