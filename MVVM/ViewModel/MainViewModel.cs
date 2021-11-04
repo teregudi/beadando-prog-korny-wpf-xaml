@@ -2,13 +2,26 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using WPF_App.Core;
 using WPF_App.MVVM.Model;
 
 namespace WPF_App.MVVM.ViewModel {
-   class MainViewModel {
+   class MainViewModel : ObservableObject {
 
       public ObservableCollection<MessageModel> Messages { get; set; }
       public ObservableCollection<ContactModel> Contacts { get; set; }
+
+      public ContactModel SelectedContact { get; set; }
+      private string _message
+         ;
+
+      public string Message {
+         get { return _message; }
+         set { _message = value;
+            OnPropertyChanged();
+         }
+      }
+
 
       public MainViewModel() {
          Messages = new ObservableCollection<MessageModel>();
