@@ -79,6 +79,7 @@
             <ListView ItemsSource="{Binding Contacts}"
                       Background="Transparent"
                       BorderThickness="0"
+                      Margin="10, 0, 10, 0"
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource ContactCard}"/>
         </Grid>

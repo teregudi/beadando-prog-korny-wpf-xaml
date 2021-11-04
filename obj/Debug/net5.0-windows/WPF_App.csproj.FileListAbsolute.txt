@@ -22,3 +22,4 @@ C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\ref\WPF_Ap
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\WPF_App.pdb
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\WPF_App.genruntimeconfig.cache
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\Themes\ContactCard.baml
+C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\App.baml
