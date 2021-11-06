@@ -26,7 +26,7 @@ C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\App.baml
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\WPF_App_Content.g.cs
 C:\Users\Telegdi Tamás\source\repos\WPF_App\bin\Debug\net5.0-windows\Icons\camera.png
 C:\Users\Telegdi Tamás\source\repos\WPF_App\bin\Debug\net5.0-windows\Icons\phone.png
-C:\Users\Telegdi Tamás\source\repos\WPF_App\bin\Debug\net5.0-windows\Icons\plus.png
 C:\Users\Telegdi Tamás\source\repos\WPF_App\bin\Debug\net5.0-windows\Icons\send.png
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\Themes\ChatItem.baml
 C:\Users\Telegdi Tamás\source\repos\WPF_App\obj\Debug\net5.0-windows\Themes\MessageBox.baml
+C:\Users\Telegdi Tamás\source\repos\WPF_App\bin\Debug\net5.0-windows\Icons\crown.jpg

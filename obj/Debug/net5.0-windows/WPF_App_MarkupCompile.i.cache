@@ -9,12 +9,12 @@ WPF_App
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-
-52144051131
-5-1446422508
-10-2045259344
+C:\Users\Telegdi Tamás\source\repos\WPF_App\App.xaml
+4351067607
+5-1386425665
+9456724428
 193-1891726104
-App.xaml;MainWindow.xaml;Themes\ChatItem.xaml;Themes\ContactCard.xaml;Themes\MessageBox.xaml;
+MainWindow.xaml;Themes\ChatItem.xaml;Themes\ContactCard.xaml;Themes\MessageBox.xaml;
 
 False
 

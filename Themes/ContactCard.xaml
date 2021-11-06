@@ -20,7 +20,7 @@
                             Margin="8,2,8,2">
                         <StackPanel Orientation="Horizontal"
                                     Margin="10,0,0,0">
-                            <Ellipse Width="35" Height="35">
+                            <Ellipse Width="40" Height="40">
                                 <Ellipse.Fill>
                                     <ImageBrush ImageSource="{Binding ImageSource}"/>
                                 </Ellipse.Fill>

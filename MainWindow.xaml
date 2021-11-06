@@ -92,11 +92,11 @@
                         Background="Green"
                         Margin="18,0,0,0"/>
                 <StackPanel VerticalAlignment="Center">
-                    <Label Content="Username"
+                    <Label Content="Jómagam"
                            Foreground="White"
                            FontWeight="SemiBold"
                            Margin="0,-5,0,-5"/>
-                    <Label Content="Custom Status"
+                    <Label Content="Elérhető"
                            Foreground="Gray"
                            FontWeight="Medium"
                            FontSize="10"
@@ -118,7 +118,7 @@
                     BorderThickness="0,0,0,3">
                 <Grid HorizontalAlignment="Stretch"
                       Margin="8">
-                    <Label Content="@Username"
+                    <Label Content="{Binding SelectedContact.Username}"
                            Foreground="White"
                            FontWeight="Bold"
                            Margin="5,0,5,0"
@@ -158,11 +158,6 @@
                             HorizontalAlignment="Right"
                             Grid.Column="1"
                             Margin="0,0,16,0">
-                    <Image Source="./Icons/plus.png"
-                           Width="20"
-                           Height="20"
-                           RenderOptions.BitmapScalingMode="Fant"
-                           Margin="5,5,5,0"/>
                     <Image Source="./Icons/send.png"
                            Width="20"
                            Height="20"

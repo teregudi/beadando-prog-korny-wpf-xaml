@@ -12,6 +12,7 @@
 		
   <ItemGroup>
     <None Remove="Icons\camera.png" />
+    <None Remove="Icons\crown.jpg" />
     <None Remove="Icons\phone.png" />
     <None Remove="Icons\plus.png" />
     <None Remove="Icons\send.png" />
@@ -22,19 +23,15 @@
     <Content Include="Icons\camera.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Icons\phone.png">
+    <Content Include="Icons\crown.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Icons\plus.png">
+    <Content Include="Icons\phone.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Icons\send.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MVVM\View\" />
   </ItemGroup>
 
   <ItemGroup>

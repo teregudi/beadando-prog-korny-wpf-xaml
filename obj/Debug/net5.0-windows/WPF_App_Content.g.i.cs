@@ -10,8 +10,8 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("app.xaml.cs")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/camera.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/crown.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/phone.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/plus.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/send.png")]
 
 
